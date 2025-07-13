@@ -2,7 +2,7 @@
 
 First Commit Template < 14-07-2025 >
 
-    LearnSprintBoot :
+    LearnSpringBoot :
     Commit : 001
     Date   : 2025-07-14
     MileSt.: YES
