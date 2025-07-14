@@ -32,4 +32,11 @@ ___
 ---
     Lecture 13
     -- So far our #pom.xml has
-    -- 
+    1. spring-boot-starter-web : REST API + Web Application
+        -- spring-boot-starter : To Launch Spring Context.
+        -- spring-boot-starter-json : Bean to JSON and JSON to Bean Conversion.
+        -- spring-boot-starter-tomcat : To Run application using TOMCAT.
+        -- spring-web    : Spring MVC Framwork for REST API.
+        -- spring-webmvc :  Spring MVC Framwork for REST API.
+
+    2. spring-boot-starter-test : For writing UNIT tests.
