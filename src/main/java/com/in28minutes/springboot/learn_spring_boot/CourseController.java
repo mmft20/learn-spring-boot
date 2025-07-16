@@ -13,7 +13,13 @@ public class CourseController {
     public List<Course> retrieveAllCourses(){
         return Arrays.asList(
                 new Course(1, "Java","Rajat"),
-                new Course(2,"Python","Rajat")
+                new Course(2,"Python","Rajat"),
+                new Course(3,"Azure","Rajat"),
+                new Course(4,"GCP","Rajat"),
+                new Course(5,"JavaScript","Rajat"),
+                new Course(6,"alpha","beta"),
+                new Course(7,"asd","sdf"),
+                new Course(8,"test","super")
         );
 
     }

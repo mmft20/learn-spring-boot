@@ -40,3 +40,29 @@ ___
         -- spring-webmvc :  Spring MVC Framwork for REST API.
 
     2. spring-boot-starter-test : For writing UNIT tests.
+
+---
+    Lecture 14
+    Configuration is base on the Dependencies/Project included in the ClassPath.
+    -- The dependencies to be included in classpath are added by updating/including them in #pom.xml.
+    
+    Spring Boot provides basic AUTO CONFIGURATION for all dependencies/starter-projects included.
+    -- The above default configuration can always be overwrittem/updates as per need.
+    -- Defaul cfg prevent us from writing cfg in the begiining and follow basic best practices so are good for starting a project.
+
+Date : 2025-07-15
+
+    Lecture 15
+    -- How to implement SB Devtools
+    -- Devtools automatically updates project whenever any changes are made to the project.
+    -- We need not re-start the application post saving the changes, for changes to take effect.
+    -- Devtools takes care of it.
+    -- Devtools is setup by adding it as a dependency in pom.xml.
+    -- NOTE : For changes in pom.xml we need to restart the application for it to take effect.
+    
+    ## Issue while setting up Devtools.
+    -- Devtools wasnt wrking post addition to pom.xml and re-start of application 2-3 times.
+    -- IntelliJ IDE must also have the following two settings for Devtools to be effective.
+    1. Settings -> Build,Execution,Deploymenet -> Compiler -> "Build project Automatically" must be checked.
+    2. Settings -> Advanced Setting -> "Allow auto make to start even if application is currently running" must be checked.
+    Ref Link : https://www.youtube.com/watch?v=BvIM9gNTDM4
