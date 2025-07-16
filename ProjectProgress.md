@@ -66,3 +66,26 @@ Date : 2025-07-15
     1. Settings -> Build,Execution,Deploymenet -> Compiler -> "Build project Automatically" must be checked.
     2. Settings -> Advanced Setting -> "Allow auto make to start even if application is currently running" must be checked.
     Ref Link : https://www.youtube.com/watch?v=BvIM9gNTDM4
+
+---
+
+    Lecture 16
+    -- How Spring BOOT helps us in being PROD ready.
+    -- We learn about Spring Profiles.
+    -- Profiles are helpful in managing project settings for different project Profiles.
+    -- Project could be in Dev, QA, Prod environment.
+    -- For Different Env we might need Env specific settings.
+    -- For example we need to connect to different DB in diff environment.
+       We need different level of logging in diff env. Etc.
+    -- This is achieved by Profiling.
+    -- we set different application.properties for diff env.
+    -- application.properties  --> Default property file
+       application-dev.properties --> For DEV Env.
+       application-prod.properties --> For PROD Env.
+    -- "spring.profiles.active=dev" --> refers to env being dev. this is mentioned in the default file i.e. application.properties.
+
+---
+
+    Lecture 17
+    -- Some infor about instructor.
+    -- Not much useful.
