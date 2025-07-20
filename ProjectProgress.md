@@ -128,3 +128,13 @@ Date : 2025-07-20
 ### IMPORTANT : How to update commit message for PUSHED change using gitBash
 
 ![img.png](CommitMessageUpdateForPUSHedCommit.png)
+
+    Lecture 20
+    -- Spring Actuator : To monitor the application.
+    -- Actuator helps us monitor the following :
+       Beans    : List of all APP Beans
+       Health   : App Health info
+       Metrics  : App metrics
+       Mappings : Details around Requests Mappings.
+    -- Required endpoints can be configured in application.properties
+    -- The parameter to include various features is : "management.endpoints.web.exposure.include"
