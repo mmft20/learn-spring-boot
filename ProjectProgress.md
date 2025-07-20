@@ -138,3 +138,43 @@ Date : 2025-07-20
        Mappings : Details around Requests Mappings.
     -- Required endpoints can be configured in application.properties
     -- The parameter to include various features is : "management.endpoints.web.exposure.include"
+
+----
+
+    Lecture 21
+    -- Understand Difference Between Spring - Spring MVC - Spring Boot
+    Spring
+        # Mainly Dependency Injection
+        # @Component , @Autowired
+        # DI only Not sufficient, hence Sping Modules.
+        # Hibernate/JPA modules for data
+        # JUnit/Mockito modules for Unit testing. Similarly other impotant modules that are needed by a project
+    Spring MVC 
+        # Wrapper of Spring to build Web abd REST API applications.
+        # Struts was very complex to build applications.
+        # uses annotations like @Controller, @ResquestController, @RequestMapping etc.
+    Spring Boot
+        # Mainly to build PROD READY Apps quickly.
+        # Uses Starter Projects which includes all basic dependencies for a project craetion.
+        # Auto Configuration : Eliminates setup for Spring, Spring MVC. Basic configuration is pre implemented using best practices.   
+        # Enable NFR : 
+            Actuator
+            Embedded Server
+            Logging
+            Error Handling
+
+----
+
+    Lecture 22
+    Section Review
+    -- Starter Projects
+    -- Auto Configuration
+    -- Actuator
+    -- Devtools.
+
+---- 
+    
+    Lecture 23 - 24
+    -- Feedback and How to remember learnings.
+    -- Not much needed.
+
