@@ -13,7 +13,8 @@ Date : 2025-07-15
     -- Ran the Spring Project using @SpringApplication annotation class.
     -- Created COURSE class with Parametrized constructor and Getter + toString Method.
     -- Built Simple REST API to retrieve All courses.
-    -- Data Was Returned by returning a list of API courses initialized using new objects.
+    -- Data Was Returned by returning a list of courses initialized/created using new objects.
+       An array of new objects ws creted and was converted to list using asList functions from Arrays class.
 
 ___
  
@@ -37,7 +38,7 @@ ___
         -- spring-boot-starter-json : Bean to JSON and JSON to Bean Conversion.
         -- spring-boot-starter-tomcat : To Run application using TOMCAT.
         -- spring-web    : Spring MVC Framwork for REST API.
-        -- spring-webmvc :  Spring MVC Framwork for REST API.
+        -- spring-webmvc : Spring MVC Framwork for REST API.
 
     2. spring-boot-starter-test : For writing UNIT tests.
 
@@ -89,3 +90,41 @@ Date : 2025-07-15
     Lecture 17
     -- Some infor about instructor.
     -- Not much useful.
+
+Date : 2025-07-19
+
+    Lecture 18
+    -- How to build a Configuration Service.
+    -- A CurrencyServiceConfiguration class was craeted with following annotation
+    @ConfigurationProperties -> To depict that this class is for setting up configurations.
+    **** The @ConfigurationProperties annotation in Spring Boot is a powerful way to bind external configuration (like values from application.properties or application.yml)
+         directly to Java objects in a type-safe and organized manner.
+    ****
+    @Component -> So that the class is managed by Spring boot.
+    -- All the instance variable of this class were basically the configuration parameters that were needed.
+    -- The parameters defined in the class : url, username, key. 
+    @ConfigurationProperties(prefix = "currency-service") 
+    Above is how the annotation is written in the class.
+    The prefix suggest how to set-up/look-up properties in the properties file.
+    So for url we will look up the property : currency-service.url and simlarly currency-service.username and currency-service.key for UserName and Key.
+    Now we can setup these values in different files for different environments
+    In application.properties    < Default Values go here >
+        currency-service.url=https://alpha.com
+        currency-service.username=defaultUser
+        currency-service.key=defaultKey
+    In application-dev.properties < For DEV Environment >
+        currency-service.url=https://alpha-dev.com
+        currency-service.username=devUser
+        currency-service.key=devKeys
+
+Date : 2025-07-20
+
+    Lecture 19
+    -- Used MAVEN clean install to carete .jar file in the target folder.
+    -- Updated default jdk on windows machine to JDK 21 as JDK 8 was too old for Spring Boot 3.
+    -- Ran the application using java -jar <jar name> from command prompt.
+
+
+### IMPORTANT : How to update commit message for PUSHED change using gitBash
+
+![img.png](img.png)
