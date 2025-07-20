@@ -127,4 +127,4 @@ Date : 2025-07-20
 
 ### IMPORTANT : How to update commit message for PUSHED change using gitBash
 
-![img.png](img.png)
+![img.png](CommitMessageUpdateForPUSHedCommit.png)
